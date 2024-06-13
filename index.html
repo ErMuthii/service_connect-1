@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="main-content">
+    <nav>
+        <img src="images/logo.png" alt="logo">
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+
+    <section class="header">
+    
+         <div class="text-box">
+              <h1>Connecting you to the best services</h1>
+              <p>Get the best services at the best prices</p>
+              <a href="services.html" class="hero-btn">Our Services</a>
+         </div>
+    </section>
+
+    <section class="services">
+        <h1>Our Services</h1>
+        <p>Our services are designed to meet your needs</p>
+        <div class="row">
+            <div class="services-col">
+
+                <h3>Plumbing</h3>
+                <p>Service 1 description</p>
+            </div>
+            <div class="services-col">
+
+                <h3>Electric work</h3>
+                <p>Service 2 description</p>
+            </div>
+            <div class="services-col">
+
+                <h3>Car Detailing</h3>
+                <p>Service 3 description</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="testimonials">
+            <h1>What our customers say</h1>
+            <p>Our customers love us</p>
+
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="images/user1.jpg" alt="">
+                    <div>
+                        <p>Customer 1</p>
+                        <h3>Tom</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonials-col">
+                    <img src="images/user1.jpg" alt="">
+                    <div>
+                        <p>Customer 1</p>
+                        <h3>Tom</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Service<span>Connect</span></h3>
+                <p class="footer-links">
+                    <a href="index.html">Home</a>
+                    |
+                    <a href="FAQ.html">FAQ</a>
+                    |
+                    <a href="services.html">Services</a>
+                    |
+                    <a href="contact.html">Contact</a>
+                </p>
+                <p class="footer-company-name">Copyright © 2024 <strong>Service Connect</strong> All rights reserved </p>
+        </div>
+                
+                
+                <div class="footer-center">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Strathmore University</span>
+                            Nairobi,Kenya</p>
+                    </div>
+        
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+254 14**9**258</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="#">serviceconnect@gmail.com</a></p>
+                    </div>
+                </div>
+
+                    <div class="footer-right">
+                        <p class="footer-company-about">
+                            <span>About the company</span>
+                            <strong>Service Connect</strong> is a platform that connects you to the best services at the best prices
+                        </p>
+                    </div>
+                    <div class="footer-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+        </div>
+    </footer>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
